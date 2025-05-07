@@ -377,7 +377,7 @@
     <!-- Fim Menu-->
 
    <!-- Modal de Carrinho -->
-<div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99]    items-center justify-center hidden" id="cart-modal">
     <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[400px] max-h-[80vh] overflow-y-auto">
         <h2 class="text-center font-bold text-2xl mb-2">Meus Pedidos</h2>
 
@@ -386,19 +386,56 @@
 
         <p class="font-bold mt-2">Total: <span id="card-total">00.00</span></p>
 
-        <p class="font-bold mt-4">Endereço de entrega:</p>
-        <input type="text"
-               placeholder="Digite seu endereço completo ..."
-               id="address"
-               class="w-full border-2 p-2 rounded my-1" />
-        <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+        <!-- Tipo de pedido-->
+        <p class="font-bold mt-4">Tipo de pedido:</p>
+        <div class="flex gap-4 my-2">
+  <label>
+    <input type="radio" name="tipo-pedido" value="retirada" checked class="mr-1" />
+    Retirada no local
+  </label>
+  <label>
+    <input type="radio" name="tipo-pedido" value="entrega" class="mr-1" />
+    Entrega
+  </label>
+        </div>
 
+       <div id="address-container" class="mt-2 hidden">
+  <p class="font-bold">Endereço de entrega:</p>
+  <input
+    type="text"
+    placeholder="Digite seu endereço completo ..."
+    id="address"
+    class="w-full border-2 p-2 rounded my-1" />
+  <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+       </div>
+       <!--Forma de pagamento-->
+       <p class="font-bold mt-4">Forma de pagamento:</p>
+       <div class="flex flex-col gap-2">
+  <label><input type="radio" name="pagamento" value="dinheiro" /> Dinheiro</label>
+  <label><input type="radio" name="pagamento" value="debito" /> Cartão de Débito</label>
+  <label><input type="radio" name="pagamento" value="credito" /> Cartão de Crédito</label>
+  <label><input type="radio" name="pagamento" value="pix" /> Pix</label>
+       </div>
+      <!-- Campo troco (só aparece se for dinheiro) -->
+      <div id="troco-container" class="hidden mt-2">
+  <input type="number" id="valor-troco"
+         placeholder="Precisa de troco para quanto?"
+         class="w-full border-2 p-2 rounded my-1" />
+      </div>
+
+      <!-- Chave PIX ou QR Code (só aparece se for pix) -->
+      <div id="pix-container" class="hidden mt-2">
+  <p class="text-sm font-medium">Chave Pix: <span id="chave-pix" class="font-mono select-all">meuemail@exemplo.com</span></p>
+  <!-- ou substitua acima por uma imagem do QR Code, ex: -->
+  <!-- <img src="qrcode.png" alt="QR Code Pix" class="w-32 mt-2" /> -->
+      </div>
+        <!-- Botões de fechar e finalizar pedido -->
         <div class="flex items-center justify-between mt-5 w-full">
             <button id="close-modal-btn" class="bg-red-400 text-white px-4 py-1 rounded">Fechar</button>
             <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
         </div>
     </div>
-</div>
+    </div>
 
     <!-- Fim modal card-->
     <!-- inicio carrinho-->
