@@ -20,10 +20,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 https://arielesilvaa.github.io/cardapio-burg/
 
 
-![Captura de Tela 2025-03-15 às 16 54![evercapture_07-05-2025_at_10-36-01](https://github.com/user-attachments/assets/2b0e97a2-7e69-4fe4-8bf2-e6d429dfc4cb)
+
+![evercapture_07-05-2025_at_11-05-21](https://github.com/user-attachments/assets/7198d968-4489-49c4-b1b4-8c4893023973)
 
 
 
+
+![evercapture_07-05-2025_at_11-05-50](https://github.com/user-attachments/assets/df5df60c-7055-4ab6-8ff8-5fdb88026f52)
 
 
 
