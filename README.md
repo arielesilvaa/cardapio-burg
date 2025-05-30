@@ -20,8 +20,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 https://arielesilvaa.github.io/cardapio-burg/
 
 
-![Captura de Tela 2025-03-15 às 16 54 12](https://github.com/user-attachments/assets/82f47185-a575-45af-9250-61844efed1f2)
 
+![evercapture_07-05-2025_at_11-05-21](https://github.com/user-attachments/assets/7198d968-4489-49c4-b1b4-8c4893023973)
+
+
+
+
+![evercapture_07-05-2025_at_11-05-50](https://github.com/user-attachments/assets/df5df60c-7055-4ab6-8ff8-5fdb88026f52)
 
 
 
@@ -35,11 +40,15 @@ https://arielesilvaa.github.io/cardapio-burg/
 
 
 ✅ Escolha dos itens e adição ao carrinho 🛒
-✅ Remoção de itens antes da finalização
-✅ Inserção do endereço de entrega 📍
-✅ Envio automático do pedido para o WhatsApp do restaurante, já com o total calculado! 📲
-✅ Gera o valor total no final
-✅Não permite pedimos quando o restaurante está fechado
+✅ Remoção de itens antes da finalização ❌
+✅ Inserção do endereço de entrega caso seja selecionada a opção "Entrega" 📍
+✅ Cálculo automático da taxa de entrega de R$ 5,00, somada ao total final 🚗💸
+✅ Seleção da forma de pagamento: Dinheiro, Cartão de Débito/Crédito ou Pix 💳
+✅ Se for dinheiro, aparece o campo para informar o valor do troco 💰
+✅ Se for Pix, mostra a chave Pix ou o QR Code para pagamento rápido 📲
+✅ Envio automático do pedido para o WhatsApp do restaurante com todos os dados preenchidos 📤
+✅ Gera o valor total no final, já com taxa de entrega (se aplicável) 💵
+✅ Bloqueia pedidos caso o restaurante esteja fechado ⛔🕒
 
 
  ## Contribuição Se quiser contribuir com este projeto: 
